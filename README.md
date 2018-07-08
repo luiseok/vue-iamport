@@ -1,11 +1,11 @@
 # vue-iamport
-[아임포트] (http://iamport.kr) 서비스를 Vue.js 에서 플러그인으로써 사용할 수 있습니다.
+[아임포트](http://iamport.kr) 서비스를 Vue.js 에서 플러그인으로써 사용할 수 있습니다.
 
 ## 설치 - Installation
 ```
 yarn add vue-iamport
 or
-npm add vue-iamport
+npm install vue-iamport
 ```
 
 ## 초기화 - Initialization
@@ -74,7 +74,7 @@ Vue.IMP().certification({
 })
 ```
 Promise 형식은 아직 지원되지 않습니다.
-상세한 내용은 [공식 가이드] (https://github.com/iamport/iamport-manual/tree/master/SMS%EB%B3%B8%EC%9D%B8%EC%9D%B8%EC%A6%9D) 를 참고하세요
+상세한 내용은 [공식 가이드](https://github.com/iamport/iamport-manual/tree/master/SMS%EB%B3%B8%EC%9D%B8%EC%9D%B8%EC%A6%9D) 를 참고하세요
 
 ## Nuxt.js 에서 사용
 nuxt.config.js
