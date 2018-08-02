@@ -1,5 +1,5 @@
 # vue-iamport
-[아임포트](http://iamport.kr) 서비스를 Vue.js 에서 플러그인으로써 사용할 수 있습니다.
+[아임포트](https://www.iamport.kr) 서비스를 Vue.js 에서 플러그인으로써 사용할 수 있습니다.
 
 **[주의] :** iamport Javascript SDK는 jQuery를 사용하고 있으므로 Vue 또는 Nuxt에서 각각의 방법에 맞게 jQuery를 불러와야합니다.
 
