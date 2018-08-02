@@ -1,6 +1,9 @@
 # vue-iamport
 [아임포트](http://iamport.kr) 서비스를 Vue.js 에서 플러그인으로써 사용할 수 있습니다.
 
+**[주의] :** iamport Javascript SDK는 jQuery를 사용하고 있으므로 Vue 또는 Nuxt에서 각각의 방법에 맞게 jQuery를 불러와야합니다.
+
+
 ## 설치 - Installation
 ```
 yarn add vue-iamport
@@ -125,3 +128,9 @@ this.$IMP().request_pay({
 
 ### Reference
 https://github.com/iamport/iamport-manual
+
+### Changelog
+
+0.1.1 [iamport javascript SDK version 1.1.7](https://docs.iamport.kr/javascript/1.1.7) 대응 및 [네이버 찜하기동작](https://github.com/iamport/iamport-manual/blob/44da33f0133ec5033d11f29dd7a8c6be3edc39d2/NAVERPAY/sample/README.md#5-%EC%B0%9C%ED%95%98%EA%B8%B0-%EB%8F%99%EC%9E%91) 추가
+
+0.1.0 Initial version

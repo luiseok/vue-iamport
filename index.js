@@ -9,7 +9,7 @@
     }
 }(this, function() {
     var config = null
-    var iamportUrl = 'https://cdn.iamport.kr/js/iamport.payment-1.1.5.js'
+    var iamportUrl = 'https://cdn.iamport.kr/js/iamport.payment-1.1.7.js'
 
     var IMP = {
         install: function(Vue, options) {
@@ -56,6 +56,12 @@
                     else
                         errorCallback(rsp)
                 });
+            },
+            agency: function(user_code, tier_code) {
+                window.IMP.agency(user_code, tier_code);
+            },
+            naver_zzim: function(param) {
+                window.IMP.naver_zzim(param);
             }
         }
     }
