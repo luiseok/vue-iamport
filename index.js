@@ -11,7 +11,7 @@
     var config = null
     var iamportUrl = 'https://cdn.iamport.kr/js/iamport.payment-1.1.7.js'
 
-    var IMP = {
+    var self = {
         install: function(Vue, options) {
             Vue.IMP = IMP
             Vue.prototype.$IMP = IMP
@@ -88,5 +88,5 @@
         })
     }
 
-    return IMP
+    return self;
 }))
